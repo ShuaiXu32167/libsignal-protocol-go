@@ -2,9 +2,10 @@ package protocol
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
 	"strconv"
+
+	"github.com/ShuaiXu32167/libsignal-protocol-go/ecc"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/bytehelper"
 )
 
 // SenderKeyMessageSerializer is an interface for serializing and deserializing

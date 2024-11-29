@@ -1,17 +1,17 @@
 package record
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/kdf"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/chain"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/message"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/root"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/session"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/errorhelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/ecc"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/kdf"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/keys/chain"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/keys/identity"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/keys/message"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/keys/root"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/keys/session"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/logger"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/bytehelper"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/errorhelper"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/optional"
 )
 
 const maxMessageKeys int = 2000

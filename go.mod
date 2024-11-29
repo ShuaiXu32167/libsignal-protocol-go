@@ -1,4 +1,4 @@
-module github.com/RadicalApp/libsignal-protocol-go
+module github.com/ShuaiXu32167/libsignal-protocol-go
 
 go 1.20.12
 

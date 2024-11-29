@@ -1,10 +1,11 @@
 package tests
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/serialize"
-	"github.com/RadicalApp/libsignal-protocol-go/util/keyhelper"
 	"testing"
+
+	"github.com/ShuaiXu32167/libsignal-protocol-go/logger"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/serialize"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/keyhelper"
 )
 
 // TestPreKeys checks generating prekeys.

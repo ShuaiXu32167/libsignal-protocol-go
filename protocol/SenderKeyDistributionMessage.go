@@ -2,8 +2,9 @@ package protocol
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
 	"strconv"
+
+	"github.com/ShuaiXu32167/libsignal-protocol-go/ecc"
 )
 
 // SenderKeyDistributionMessageSerializer is an interface for serializing and deserializing

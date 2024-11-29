@@ -3,16 +3,17 @@ package session
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/prekey"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
-	"github.com/RadicalApp/libsignal-protocol-go/ratchet"
-	"github.com/RadicalApp/libsignal-protocol-go/serialize"
-	"github.com/RadicalApp/libsignal-protocol-go/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/state/store"
-	"github.com/RadicalApp/libsignal-protocol-go/util/medium"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+
+	"github.com/ShuaiXu32167/libsignal-protocol-go/ecc"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/keys/prekey"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/logger"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/protocol"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/ratchet"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/serialize"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/state/record"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/state/store"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/medium"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/optional"
 )
 
 // Define error constants used for error messages.
@@ -60,9 +61,9 @@ func NewBuilderFromSignal(signalStore store.SignalProtocol,
 // used to encrypt/decrypt messages in that session.
 //
 // Sessions are built from one of three different vectors:
-//   * PreKeyBundle retrieved from a server.
-//   * PreKeySignalMessage received from a client.
-//   * KeyExchangeMessage sent to or received from a client.
+//   - PreKeyBundle retrieved from a server.
+//   - PreKeySignalMessage received from a client.
+//   - KeyExchangeMessage sent to or received from a client.
 //
 // Sessions are constructed per recipientId + deviceId tuple.
 // Remote logical users are identified by their recipientId,

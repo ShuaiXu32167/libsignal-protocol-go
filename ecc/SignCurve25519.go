@@ -7,7 +7,7 @@ import (
 	"crypto/ed25519"
 	"crypto/sha512"
 
-	"github.com/RadicalApp/libsignal-protocol-go/edwards25519"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/edwards25519"
 )
 
 // sign signs the message with privateKey and returns a signature as a byte slice.

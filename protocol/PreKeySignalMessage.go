@@ -2,10 +2,11 @@ package protocol
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
 	"strconv"
+
+	"github.com/ShuaiXu32167/libsignal-protocol-go/ecc"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/keys/identity"
+	"github.com/ShuaiXu32167/libsignal-protocol-go/util/optional"
 )
 
 // PreKeySignalMessageSerializer is an interface for serializing and deserializing
